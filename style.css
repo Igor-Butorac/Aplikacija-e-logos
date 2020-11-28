@@ -1,0 +1,270 @@
+
+   #header-image {
+	background-image: url("images/sl1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: relative;
+    width:100%;
+	height: 400px;
+}
+
+
+.container_reg {
+    width:35%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.myForm{  
+    padding: 12px 20px ;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Login */
+#div_login{
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 470px;
+    height: 270px;
+    box-shadow: 0px 2px 2px 0px  gray;
+    margin: 0 auto;
+}
+
+#div_login h1{
+    margin-top: 0px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: sans-serif;
+}
+
+#div_login div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#div_login .textbox{
+    width: 96%;
+    padding: 7px;
+}
+
+#div_login input[type=submit]{
+    padding: 7px;
+    width: 100px;
+    background-color: lightseagreen;
+    border: 0px;
+    color: white;
+    
+    
+}
+
+#div_login input:hover[type=submit]{
+    -webkit-transform: scale(1.025,1.025);
+    -ms-transform: scale(1.025,1.025);
+    -o-transform: scale(1.025,1.025);
+    transform: scale(1.025,1.025);
+    cursor: pointer;
+}
+
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+
+#ul_menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+.li_menu {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #4CAF50;
+}
+
+.ul_about{
+    background-color:white;
+    list-style-type: square;
+}
+
+.li_about{
+
+    font-size: 14px;
+    margin-left: 10px;
+    display: inline;
+}
+
+label {
+	display: block;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #e5e5e5;
+    columns: #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+    font-size: 95%;
+}
+
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 8px rgba(81, 203, 238, 1); 
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 15%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.about {
+	line-height:1.4em;
+	letter-spacing: 1px;
+}
+
+.h3about{
+
+    font-size: 1.2em;
+	color: #27318b;
+}
+
+#inner {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+#user_div{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    font-family: arial;
+}
+
+.user_picture{
+    
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  border:2px solid grey;
+
+}
+
+.user{
+    color:grey; 
+    float:center;
+    text-indent: 10%;
+}
+
+.btn_user{
+
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;    
+
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+.info-msg,
+.success-msg,
+.warning-msg,
+.error-msg {
+  width:auto;
+  margin: auto;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+
+}
+.info-msg {
+  color: #059;
+  background-color: #BEF;
+}
+.success-msg {
+  color: #270;
+  background-color: #DFF2BF;
+}
+.warning-msg {
+  color: #9F6000;
+  background-color: #FEEFB3;
+}
+.error-msg {
+  
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+.success-msg_change {
+    width:50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    color: #270;
+    background-color: #DFF2BF;
+  }
+
+  .error-msg {
+    width:50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    color: #D8000C;
+    background-color: #FFBABA;
+  }
