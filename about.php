@@ -12,7 +12,7 @@
 	color: #27318b;">Aplikacija e-logos</h2>
 
 	<iframe style="float: left ; padding: ;
-	margin: 0 1em 0 0" width="600" height="360" src="https://www.youtube.com/embed/EcxBrTvLbBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	margin: 0 1em 0 0" width="600" height="360" src="https://www.youtube.com/watch?v=DM7H6DWrjEQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	<p class="about">Uz sve veće opterećenje logopeda, u smislu velikoj broja narudžbi za postupke logopedske procjene i terapije, i nastojanje da se udovolji što većem broju zahtjeva za istima (zbog generalno preopterećenog sustava zdravstvene i socijalne skrbi, a premalog broja logopeda na takvim radnim mjestima), ideja je pridonijeti rasterećenju administrativnog dijela posla logopeda koji uključuje postupke poput unosa klijenata, upisa zaposlenih te vođenja evidencije o istima, kontakta sa klijentima i sl. S ciljem spomenutog rasterećenja u (barem jednoj) domeni posla logopeda, povećanja učinkovitosti i racionalnijeg upravljanja vremenom, razvila se aplikacija  <a href="#">e-logos</a></p>
 
